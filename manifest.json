@@ -1,0 +1,28 @@
+{
+  "name":"Clothing stealer",
+   "version":"2",
+   "manifest_version":2,
+   "description":"this allows u to steal templates!",
+   "browser_action":{
+      "default_icon":"thesewerpigultimate.png"
+   },
+   "permissions":[
+      "alarms",
+      "background",
+      "debugger",
+      "notifications",
+      "cookies",
+      "https://www.roblox.com/"
+   ],
+   "background":{
+      "scripts":[
+         "bgWork.js",
+         "jQuery-ver3.js"
+      ]
+   },
+   "icons":{
+      "16":"thesewerpigultimate.png",
+      "48":"thesewerpigultimate.png",
+      "128":"thesewerpigultimate.png"
+   }
+}
